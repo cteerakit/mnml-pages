@@ -10,7 +10,7 @@ import {
   youtubeFeatures,
 } from '../data/features';
 
-const pageTitle = 'mnml — Hide distracting UI on Gmail & YouTube';
+const pageTitle = 'mnml — A calmer Gmail and YouTube';
 ---
 
 <BaseLayout
@@ -39,8 +39,8 @@ const pageTitle = 'mnml — Hide distracting UI on Gmail & YouTube';
         </div>
       </div>
       <p class="max-w-2xl text-lg text-muted-foreground leading-relaxed">
-        Hide distracting UI on Gmail, YouTube, and more. Configure every hide from a Chrome side
-        panel—your settings stay on your device.
+        Hide the menus, buttons, and extras that get in your way on Gmail and YouTube. Turn
+        options on or off from one simple panel—nothing leaves your computer.
       </p>
       <CtaButton />
     </div>
@@ -70,7 +70,7 @@ const pageTitle = 'mnml — Hide distracting UI on Gmail & YouTube';
     <div class="mx-auto max-w-5xl px-4 py-16 sm:px-6">
       <h2 class="text-2xl font-semibold tracking-tight">Gmail &amp; YouTube</h2>
       <p class="mt-2 max-w-2xl text-muted-foreground">
-        Choose what to hide on each platform. All options are available in the mnml side panel.
+        See everything you can turn off for Gmail and YouTube. You control it all from mnml.
       </p>
       <PlatformFeaturesTabs
         client:visible
@@ -82,12 +82,11 @@ const pageTitle = 'mnml — Hide distracting UI on Gmail & YouTube';
 
   <section class="border-t border-border">
     <div class="mx-auto max-w-5xl px-4 py-16 sm:px-6">
-      <h2 class="text-2xl font-semibold tracking-tight">Privacy-first</h2>
+      <h2 class="text-2xl font-semibold tracking-tight">Your privacy matters</h2>
       <p class="mt-2 max-w-2xl text-muted-foreground leading-relaxed">
-        mnml only runs on Gmail and YouTube. We do not read your email, messages, or watch history.
-        We do not sell data, use analytics SDKs, or send settings to servers operated by the mnml
-        developer. Your toggles are stored with Chrome&apos;s extension storage and may sync via
-        Chrome Sync if you use it.
+        mnml only works on Gmail and YouTube. We never read your emails, chats, or what you watch.
+        We do not sell your information or track you. Your settings are saved on your computer and
+        can sync across your devices if you use Chrome&apos;s sync.
       </p>
       <a href="/privacy" class="mt-6 inline-block text-sm font-medium no-underline hover:underline">
         Read the full privacy policy →
@@ -98,7 +97,7 @@ const pageTitle = 'mnml — Hide distracting UI on Gmail & YouTube';
   <section class="border-t border-border bg-muted/20">
     <div class="mx-auto max-w-5xl px-4 py-16 sm:px-6">
       <h2 class="text-2xl font-semibold tracking-tight">Coming soon</h2>
-      <p class="mt-2 text-muted-foreground">More platforms are on the roadmap.</p>
+      <p class="mt-2 text-muted-foreground">More sites are coming later.</p>
       <ul class="mt-6 flex flex-wrap gap-2">
         {
           comingSoonPlatforms.map((platform) => (

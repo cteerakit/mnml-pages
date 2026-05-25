@@ -41,15 +41,15 @@ export function PlatformFeaturesTabs({
       </TabsList>
       <TabsContent value="gmail" className="mt-6 flex flex-col gap-4">
         <p className="max-w-2xl text-muted-foreground">
-          Hide distracting panels and chrome in Gmail. Limit content width, collapse sidebars
-          until hover, and streamline the header.
+          Cut down visual noise in your inbox—narrow the layout, tuck away menus, and keep only
+          what you need on screen.
         </p>
         <FeatureList features={gmailFeatures} />
       </TabsContent>
       <TabsContent value="youtube" className="mt-6 flex flex-col gap-4">
         <p className="max-w-2xl text-muted-foreground">
-          Hide feeds, Shorts, comments, and other distractions on YouTube. Changes apply on SPA
-          navigation without a full reload when possible.
+          Focus on the video—hide Shorts, comments, suggestions, and other clutter. Most changes
+          kick in as soon as you flip a switch.
         </p>
         <FeatureList features={youtubeFeatures} />
       </TabsContent>

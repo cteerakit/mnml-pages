@@ -5,113 +5,112 @@ export type Feature = {
 
 export const gmailFeatures: Feature[] = [
   {
-    label: 'Limit main content width',
+    label: 'Narrow your inbox width',
     description:
-      'Choose small, medium, large, or full width for the inbox and reading pane. Full uses Gmail’s default layout.',
+      'Pick a comfortable width for your inbox and messages—small, medium, large, or full screen like Gmail normally shows.',
   },
   {
-    label: 'Hide Gmail logo',
-    description: 'Hide the Gmail logo link in the header.',
+    label: 'Hide the Gmail logo',
+    description: 'Remove the Gmail logo at the top of the page.',
   },
   {
-    label: 'Hide left sidebar menus until hover',
+    label: 'Hide the left menu until you need it',
     description:
-      'Hide Inbox, labels, and other items in the left sidebar. The main menu button stays subdued until you hover or focus it. Sidebar items appear when you hover the sidebar, the main menu button, or move focus into either. Compose stays visible unless floating Compose is on.',
+      'Inbox, labels, and other items stay out of the way until you hover over the menu or open it. The Compose button can stay visible, or move to a floating button (see below).',
   },
   {
-    label: 'Move Compose to floating button',
+    label: 'Floating Compose button',
     description:
-      'Move Compose to a floating icon button in the bottom-right corner and hide it in the left sidebar.',
+      'Put Compose in a small button at the bottom-right corner instead of the left sidebar.',
   },
   {
-    label: 'Hide list toolbar until hover',
+    label: 'Hide the toolbar above your emails',
     description:
-      'Hide the Select, Refresh, and action bar above your messages. It appears when you hover that area or tab into it.',
+      'Select, Refresh, and other controls above your message list stay hidden until you move your mouse over that area.',
   },
   {
-    label: 'Hide side panel (Add-on)',
-    description: 'Hide the right add-on side panel and its toggle.',
+    label: 'Hide the add-ons panel',
+    description: 'Remove the panel on the right used for Gmail add-ons.',
   },
   {
-    label: 'Hide search bar',
-    description: 'Hide the mail search field in the header.',
+    label: 'Hide the search bar',
+    description: 'Remove the search box at the top.',
   },
   {
-    label: 'Show minimal search bar',
+    label: 'Use a smaller search bar',
     description:
-      'Show a compact centered search field that stays subdued until you hover or focus it. Expands to reveal the options icon and placeholder.',
+      'Show a compact search field in the center that expands when you click or hover on it.',
   },
   {
-    label: 'Hide top-right menu icons',
+    label: 'Hide top-right icons',
     description:
-      'Collapse Support, Settings, Gemini, Google apps, and your account avatar. The chevron stays subdued until you hover or focus it.',
+      'Tuck away Support, Settings, Gemini, Google apps, and your profile picture until you hover over that corner.',
   },
   {
     label: 'Hide footer links',
-    description: 'Hide Gmail footer links and promos.',
+    description: 'Remove links and promos at the bottom of Gmail.',
   },
 ];
 
 export const youtubeFeatures: Feature[] = [
   {
-    label: 'Hide left sidebar until hover',
+    label: 'Hide the left menu until you need it',
     description:
-      'Collapse the mini guide and reclaim horizontal space. Hover the left edge or Guide (hamburger) button to reveal navigation. A pinned full guide still opens normally.',
+      'Give videos more room on screen. Move your mouse to the left edge or the menu button to open navigation when you want it.',
   },
   {
-    label: 'Hide Create button',
-    description: 'Hide the Create upload button in the top bar.',
+    label: 'Hide the Create button',
+    description: 'Remove the upload button at the top.',
   },
   {
-    label: 'Hide notifications button',
-    description: 'Hide the notifications bell in the top bar.',
+    label: 'Hide notifications',
+    description: 'Remove the bell icon at the top.',
   },
   {
-    label: 'Hide voice search button',
-    description: 'Hide the microphone button next to the search field.',
+    label: 'Hide voice search',
+    description: 'Remove the microphone button next to search.',
   },
   {
-    label: 'Hide YouTube / Premium logo',
-    description: 'Hide the YouTube or YouTube Premium logo in the header.',
+    label: 'Hide the YouTube logo',
+    description: 'Remove the YouTube or Premium logo at the top.',
   },
   {
-    label: 'Hide search chips',
-    description:
-      'Hide the category filter chips below the search bar on the home feed.',
+    label: 'Hide category filters',
+    description: 'Remove the filter buttons under search on the home page.',
   },
   {
     label: 'Hide Shorts',
-    description: 'Hide Shorts shelves and navigation entries.',
+    description: 'Remove Shorts rows and Shorts links in the menu.',
   },
   {
     label: 'Hide comments',
-    description: 'Hide the comment section on watch pages.',
+    description: 'Remove the comments section while watching a video.',
   },
   {
-    label: 'Hide related videos',
-    description: 'Hide the right-hand suggestions column.',
+    label: 'Hide suggested videos',
+    description: 'Remove the list of recommended videos on the right.',
   },
   {
     label: 'Hide end screens',
-    description: 'Hide end-screen overlays and cards in the player.',
+    description: 'Remove overlays and cards that appear at the end of a video.',
   },
 ];
 
 export const howItWorksSteps = [
   {
     step: '1',
-    title: 'Install mnml',
-    description: 'Add the extension from the Chrome Web Store.',
+    title: 'Add mnml to Chrome',
+    description: 'Install it free from the Chrome Web Store.',
   },
   {
     step: '2',
-    title: 'Open the side panel',
-    description: 'Click the mnml icon in your toolbar to configure hides.',
+    title: 'Open mnml',
+    description: 'Click the mnml icon in your browser toolbar to see all the options.',
   },
   {
     step: '3',
-    title: 'Toggle what you hide',
+    title: 'Pick what to hide',
     description:
-      'Choose Gmail and YouTube options. Changes apply immediately—no reload when possible.',
+      'Turn options on or off for Gmail and YouTube. Most changes take effect right away.',
   },
 ] as const;

@@ -1,8 +1,8 @@
 export const siteConfig = {
   name: 'mnml',
-  tagline: 'Minimal web UI',
+  tagline: 'Less clutter on Gmail and YouTube',
   description:
-    'Hide distracting UI on Gmail, YouTube, and more. A Chrome extension with a side panel to toggle what you hide—local-only, no analytics.',
+    'A free Chrome extension that lets you hide the parts of Gmail and YouTube you do not need. Turn options on or off anytime—your choices stay private on your computer.',
   chromeStoreUrl:
     import.meta.env.PUBLIC_CHROME_STORE_URL ?? '#',
   githubUrl: import.meta.env.PUBLIC_GITHUB_URL,
