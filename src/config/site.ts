@@ -6,6 +6,7 @@ export const siteConfig = {
   chromeStoreUrl:
     import.meta.env.PUBLIC_CHROME_STORE_URL ?? '#',
   githubUrl: import.meta.env.PUBLIC_GITHUB_URL,
+  feedbackUrl: 'https://mnml.featurebase.app/',
 } as const;
 
 export const comingSoonPlatforms = [
